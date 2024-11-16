@@ -1,0 +1,216 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background: whitesmoke;
+}
+.chessContainer {
+  width: 800px;
+  height: 800px;
+  background-color: blue;
+  margin: auto;
+}
+.chessContainer .chessRowOne,
+.chessRowTwo,
+.chessRowThree,
+.chessRowFour,
+.chessRowFive,
+.chessRowSix,
+.chessRowSeven,
+.chessRowEight {
+  height: 100px;
+  width: 100%;
+  background-color: green;
+}
+.chessContainer .chessRowOne .A-One,
+.C-One,
+.E-One,
+.G-One {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(181, 137, 99);
+  float: left;
+}
+.chessContainer .chessRowOne .B-One,
+.D-One,
+.F-One,
+.H-One {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(239, 218, 182);
+  float: left;
+}
+
+.chessContainer .chessRowTwo .A-Two,
+.C-Two,
+.E-Two,
+.G-Two {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(239, 218, 182);
+  float: left;
+}
+.chessContainer .chessRowTwo .B-Two,
+.D-Two,
+.F-Two,
+.H-Two {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(181, 137, 99);
+  float: left;
+}
+
+.chessContainer .chessRowThree .A-Three,
+.C-Three,
+.E-Three,
+.G-Three {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(181, 137, 99);
+  float: left;
+}
+.chessContainer .chessRowThree .B-Three,
+.D-Three,
+.F-Three,
+.H-Three {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(239, 218, 182);
+  float: left;
+}
+
+.chessContainer .chessRowFour .A-Four,
+.C-Four,
+.E-Four,
+.G-Four {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(239, 218, 182);
+  float: left;
+}
+.chessContainer .chessRowFour .B-Four,
+.D-Four,
+.F-Four,
+.H-Four {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(181, 137, 99);
+  float: left;
+}
+
+.chessContainer .chessRowFive .A-Five,
+.C-Five,
+.E-Five,
+.G-Five {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(181, 137, 99);
+  float: left;
+}
+.chessContainer .chessRowFive .B-Five,
+.D-Five,
+.F-Five,
+.H-Five {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(239, 218, 182);
+  float: left;
+}
+
+.chessContainer .chessRowSix .A-Six,
+.C-Six,
+.E-Six,
+.G-Six {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(239, 218, 182);
+  float: left;
+}
+.chessContainer .chessRowSix .B-Six,
+.D-Six,
+.F-Six,
+.H-Six {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(181, 137, 99);
+  float: left;
+}
+
+.chessContainer .chessRowSeven .A-Seven,
+.C-Seven,
+.E-Seven,
+.G-Seven {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(181, 137, 99);
+  float: left;
+}
+.chessContainer .chessRowSeven .B-Seven,
+.D-Seven,
+.F-Seven,
+.H-Seven {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(239, 218, 182);
+  float: left;
+}
+
+.chessContainer .chessRowEight .A-Eight,
+.C-Eight,
+.E-Eight,
+.G-Eight {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(239, 218, 182);
+  float: left;
+}
+.chessContainer .chessRowEight .B-Eight,
+.D-Eight,
+.F-Eight,
+.H-Eight {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(181, 137, 99);
+  float: left;
+}
+
+.chessContainer p {
+  font-size: 20px;
+  padding-top: 10px;
+  text-align: center;
+}
+.chessContainer .chessRowOne .A-One,
+.C-One,
+.E-One,
+.G-One p {
+  color: white;
+}
+.chessContainer .chessRowTwo .B-Two,
+.D-Two,
+.F-Two,
+.H-Two p {
+  color: white;
+}
+
+.chessContainer .chessRowSeven .A-Seven,
+.C-Seven,
+.E-Seven,
+.G-Seven p {
+  color: white;
+}
+.chessContainer .chessRowEight .B-Eight,
+.D-Eight,
+.F-Eight,
+.H-Eight p {
+  color: white;
+}
+.chessContainer img
+{
+  height: 70%;
+  width: 70%;
+  position: relative;
+  top: 10px;
+  left: 15px;
+}
